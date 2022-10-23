@@ -1,0 +1,1885 @@
+[
+  {
+    "id": 0,
+    "name": "TCP_SCAN",
+    "description": "A reconnaissance scan using the TCP protocol is often an indicator of a malicious attacker searching for a device vulnerable to a network attack, such as MITM.",
+    "mitreTactics": [
+      {
+        "mitreId": "TA0027",
+        "name": "Initial Access",
+        "id": 0,
+        "url": "https://attack.mitre.org/tactics/TA0027"
+      },
+      {
+        "mitreId": "TA0032",
+        "name": "Discovery",
+        "id": 5,
+        "url": "https://attack.mitre.org/tactics/TA0032"
+      },
+      {
+        "mitreId": "TA0035",
+        "name": "Collection",
+        "id": 8,
+        "url": "https://attack.mitre.org/tactics/TA0035"
+      },
+      {
+        "mitreId": "TA0038",
+        "name": "Network Effects",
+        "id": 11,
+        "url": "https://attack.mitre.org/tactics/TA0038"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "name": "UDP_SCAN",
+    "description": "A reconnaissance scan using the UDP protocol is often an indicator of a malicious attacker searching for a device vulnerable to a network attack, such as MITM.",
+    "mitreTactics": [
+      {
+        "mitreId": "TA0027",
+        "name": "Initial Access",
+        "id": 0,
+        "url": "https://attack.mitre.org/tactics/TA0027"
+      },
+      {
+        "mitreId": "TA0032",
+        "name": "Discovery",
+        "id": 5,
+        "url": "https://attack.mitre.org/tactics/TA0032"
+      },
+      {
+        "mitreId": "TA0035",
+        "name": "Collection",
+        "id": 8,
+        "url": "https://attack.mitre.org/tactics/TA0035"
+      },
+      {
+        "mitreId": "TA0038",
+        "name": "Network Effects",
+        "id": 11,
+        "url": "https://attack.mitre.org/tactics/TA0038"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "IP_SCAN",
+    "description": "A reconnaissance scan using the IP protocol is often an indicator of a malicious attacker searching for a device vulnerable to a network attack, such as MITM.",
+    "mitreTactics": [
+      {
+        "mitreId": "TA0027",
+        "name": "Initial Access",
+        "id": 0,
+        "url": "https://attack.mitre.org/tactics/TA0027"
+      },
+      {
+        "mitreId": "TA0032",
+        "name": "Discovery",
+        "id": 5,
+        "url": "https://attack.mitre.org/tactics/TA0032"
+      },
+      {
+        "mitreId": "TA0035",
+        "name": "Collection",
+        "id": 8,
+        "url": "https://attack.mitre.org/tactics/TA0035"
+      },
+      {
+        "mitreId": "TA0038",
+        "name": "Network Effects",
+        "id": 11,
+        "url": "https://attack.mitre.org/tactics/TA0038"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "ARP_SCAN",
+    "description": "A reconnaissance scan using the ARP protocol is often an indicator of a malicious attacker searching for a device vulnerable to a network attack, such as MITM.",
+    "mitreTactics": [
+      {
+        "mitreId": "TA0027",
+        "name": "Initial Access",
+        "id": 0,
+        "url": "https://attack.mitre.org/tactics/TA0027"
+      },
+      {
+        "mitreId": "TA0032",
+        "name": "Discovery",
+        "id": 5,
+        "url": "https://attack.mitre.org/tactics/TA0032"
+      },
+      {
+        "mitreId": "TA0035",
+        "name": "Collection",
+        "id": 8,
+        "url": "https://attack.mitre.org/tactics/TA0035"
+      },
+      {
+        "mitreId": "TA0038",
+        "name": "Network Effects",
+        "id": 11,
+        "url": "https://attack.mitre.org/tactics/TA0038"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "ARP_MITM",
+    "description": "A man-in-the-middle attack using ARP table poisoning is when a malicious attacker can hijack traffic, steal credentials, and deliver malware to the device.",
+    "mitreTactics": [
+      {
+        "mitreId": "TA0035",
+        "name": "Collection",
+        "id": 8,
+        "url": "https://attack.mitre.org/tactics/TA0035"
+      },
+      {
+        "mitreId": "TA0036",
+        "name": "Exfiltration",
+        "id": 9,
+        "url": "https://attack.mitre.org/tactics/TA0036"
+      },
+      {
+        "mitreId": "TA0038",
+        "name": "Network Effects",
+        "id": 11,
+        "url": "https://attack.mitre.org/tactics/TA0038"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "MALICIOUS_WEBSITE",
+    "description": "A potentially malicious website address (URL) link was tapped on the device.",
+    "mitreTactics": [
+      {
+        "mitreId": "TA0027",
+        "name": "Initial Access",
+        "id": 0,
+        "url": "https://attack.mitre.org/tactics/TA0027"
+      },
+      {
+        "mitreId": "TA0031",
+        "name": "Credential Access",
+        "id": 4,
+        "url": "https://attack.mitre.org/tactics/TA0031"
+      },
+      {
+        "mitreId": "TA0038",
+        "name": "Network Effects",
+        "id": 11,
+        "url": "https://attack.mitre.org/tactics/TA0038"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "ABNORMAL_PROCESS_ACTIVITY",
+    "description": "Detected abnormal activity. Your device is being monitored for any attacks.",
+    "mitreTactics": [
+      {
+        "mitreId": "TA0028",
+        "name": "Persistence",
+        "id": 1,
+        "url": "https://attack.mitre.org/tactics/TA0028"
+      },
+      {
+        "mitreId": "TA0034",
+        "name": "Impact",
+        "id": 7,
+        "url": "https://attack.mitre.org/tactics/TA0034"
+      },
+      {
+        "mitreId": "TA0041",
+        "name": "Execution",
+        "id": 13,
+        "url": "https://attack.mitre.org/tactics/TA0041"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "ICMP_REDIR_MITM",
+    "description": "A man-in-the-middle attack using ICMP protocol is when a malicious attacker can hijack traffic, steal credentials, and deliver malware to the device.",
+    "mitreTactics": [
+      {
+        "mitreId": "TA0035",
+        "name": "Collection",
+        "id": 8,
+        "url": "https://attack.mitre.org/tactics/TA0035"
+      },
+      {
+        "mitreId": "TA0036",
+        "name": "Exfiltration",
+        "id": 9,
+        "url": "https://attack.mitre.org/tactics/TA0036"
+      },
+      {
+        "mitreId": "TA0038",
+        "name": "Network Effects",
+        "id": 11,
+        "url": "https://attack.mitre.org/tactics/TA0038"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "RUNNING_AS_ROOT",
+    "description": "A malicious process that results in the elevation of privileges on the mobile device allows an attacker to take full control of the device.",
+    "mitreTactics": [
+      {
+        "mitreId": "TA0028",
+        "name": "Persistence",
+        "id": 1,
+        "url": "https://attack.mitre.org/tactics/TA0028"
+      },
+      {
+        "mitreId": "TA0029",
+        "name": "Privilege Escalation",
+        "id": 2,
+        "url": "https://attack.mitre.org/tactics/TA0029"
+      },
+      {
+        "mitreId": "TA0041",
+        "name": "Execution",
+        "id": 13,
+        "url": "https://attack.mitre.org/tactics/TA0041"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "name": "APK_SUSPECTED",
+    "description": "A known malicious app attempts to control the device in some manner, such as elevation of privileges or spyware.",
+    "mitreTactics": [
+      {
+        "mitreId": "TA0027",
+        "name": "Initial Access",
+        "id": 0,
+        "url": "https://attack.mitre.org/tactics/TA0027"
+      },
+      {
+        "mitreId": "TA0028",
+        "name": "Persistence",
+        "id": 1,
+        "url": "https://attack.mitre.org/tactics/TA0028"
+      },
+      {
+        "mitreId": "TA0031",
+        "name": "Credential Access",
+        "id": 4,
+        "url": "https://attack.mitre.org/tactics/TA0031"
+      },
+      {
+        "mitreId": "TA0034",
+        "name": "Impact",
+        "id": 7,
+        "url": "https://attack.mitre.org/tactics/TA0034"
+      },
+      {
+        "mitreId": "TA0035",
+        "name": "Collection",
+        "id": 8,
+        "url": "https://attack.mitre.org/tactics/TA0035"
+      },
+      {
+        "mitreId": "TA0036",
+        "name": "Exfiltration",
+        "id": 9,
+        "url": "https://attack.mitre.org/tactics/TA0036"
+      },
+      {
+        "mitreId": "TA0041",
+        "name": "Execution",
+        "id": 13,
+        "url": "https://attack.mitre.org/tactics/TA0041"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "name": "SSL_STRIP",
+    "description": "A man-in-the-middle attack using SSL stripping allows a malicious attacker to change HTTPS traffic to HTTP, so they can hijack traffic, steal credentials, and deliver malware to the device.",
+    "mitreTactics": [
+      {
+        "mitreId": "TA0035",
+        "name": "Collection",
+        "id": 8,
+        "url": "https://attack.mitre.org/tactics/TA0035"
+      },
+      {
+        "mitreId": "TA0036",
+        "name": "Exfiltration",
+        "id": 9,
+        "url": "https://attack.mitre.org/tactics/TA0036"
+      },
+      {
+        "mitreId": "TA0038",
+        "name": "Network Effects",
+        "id": 11,
+        "url": "https://attack.mitre.org/tactics/TA0038"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "name": "PROXY_CHANGE",
+    "description": "Proxy configuration changes on the mobile device can be indicative of sending traffic to a non-intended destination.",
+    "mitreTactics": [
+      {
+        "mitreId": "TA0027",
+        "name": "Initial Access",
+        "id": 0,
+        "url": "https://attack.mitre.org/tactics/TA0027"
+      },
+      {
+        "mitreId": "TA0036",
+        "name": "Exfiltration",
+        "id": 9,
+        "url": "https://attack.mitre.org/tactics/TA0036"
+      },
+      {
+        "mitreId": "TA0038",
+        "name": "Network Effects",
+        "id": 11,
+        "url": "https://attack.mitre.org/tactics/TA0038"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "name": "GATEWAY_CHANGE",
+    "description": "Gateway configuration changes on the mobile device can be indicative of sending traffic to a non-intended destination.",
+    "mitreTactics": [
+      {
+        "mitreId": "TA0027",
+        "name": "Initial Access",
+        "id": 0,
+        "url": "https://attack.mitre.org/tactics/TA0027"
+      },
+      {
+        "mitreId": "TA0038",
+        "name": "Network Effects",
+        "id": 11,
+        "url": "https://attack.mitre.org/tactics/TA0038"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "name": "DNS_CHANGE",
+    "description": "The DNS configuration changed on the mobile device. If the DNS change happened within your own network to an unknown DNS server, then it is likely a MITM attempt.",
+    "mitreTactics": [
+      {
+        "mitreId": "TA0027",
+        "name": "Initial Access",
+        "id": 0,
+        "url": "https://attack.mitre.org/tactics/TA0027"
+      },
+      {
+        "mitreId": "TA0038",
+        "name": "Network Effects",
+        "id": 11,
+        "url": "https://attack.mitre.org/tactics/TA0038"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "name": "FILES_SYSTEM_CHANGED",
+    "description": "A normal file system change occurred.",
+    "mitreTactics": [
+      {
+        "mitreId": "TA0028",
+        "name": "Persistence",
+        "id": 1,
+        "url": "https://attack.mitre.org/tactics/TA0028"
+      },
+      {
+        "mitreId": "TA0034",
+        "name": "Impact",
+        "id": 7,
+        "url": "https://attack.mitre.org/tactics/TA0034"
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "name": "UNTRUSTED_PROFILE",
+    "description": "An untrusted profile is a profile installed on one or more devices and is unsafe on your devices. An untrusted profile installed on devices can be used to control devices remotely, monitor and manipulate user activities, and hijack users' traffic.",
+    "mitreTactics": [
+      {
+        "mitreId": "TA0027",
+        "name": "Initial Access",
+        "id": 0,
+        "url": "https://attack.mitre.org/tactics/TA0027"
+      },
+      {
+        "mitreId": "TA0028",
+        "name": "Persistence",
+        "id": 1,
+        "url": "https://attack.mitre.org/tactics/TA0028"
+      },
+      {
+        "mitreId": "TA0031",
+        "name": "Credential Access",
+        "id": 4,
+        "url": "https://attack.mitre.org/tactics/TA0031"
+      },
+      {
+        "mitreId": "TA0034",
+        "name": "Impact",
+        "id": 7,
+        "url": "https://attack.mitre.org/tactics/TA0034"
+      },
+      {
+        "mitreId": "TA0035",
+        "name": "Collection",
+        "id": 8,
+        "url": "https://attack.mitre.org/tactics/TA0035"
+      },
+      {
+        "mitreId": "TA0036",
+        "name": "Exfiltration",
+        "id": 9,
+        "url": "https://attack.mitre.org/tactics/TA0036"
+      },
+      {
+        "mitreId": "TA0041",
+        "name": "Execution",
+        "id": 13,
+        "url": "https://attack.mitre.org/tactics/TA0041"
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "name": "UNKNOWN_SOURCES_ON",
+    "description": "App downloads from locations other than the Google Play store are enabled.",
+    "mitreTactics": [
+      {
+        "mitreId": "TA0027",
+        "name": "Initial Access",
+        "id": 0,
+        "url": "https://attack.mitre.org/tactics/TA0027"
+      },
+      {
+        "mitreId": "TA0034",
+        "name": "Impact",
+        "id": 7,
+        "url": "https://attack.mitre.org/tactics/TA0034"
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "name": "SSL_MITM",
+    "description": "A man-in-the-middle attack using a fake certificate occurred, and this is when a malicious attacker can hijack traffic, steal credentials, and deliver malware to the device.",
+    "mitreTactics": [
+      {
+        "mitreId": "TA0035",
+        "name": "Collection",
+        "id": 8,
+        "url": "https://attack.mitre.org/tactics/TA0035"
+      },
+      {
+        "mitreId": "TA0036",
+        "name": "Exfiltration",
+        "id": 9,
+        "url": "https://attack.mitre.org/tactics/TA0036"
+      },
+      {
+        "mitreId": "TA0038",
+        "name": "Network Effects",
+        "id": 11,
+        "url": "https://attack.mitre.org/tactics/TA0038"
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "name": "NETWORK_HANDOFF",
+    "description": "A network handoff occurred and can allow a device to alter routing on a network, potentially allowing for a man-in-the-middle attack.",
+    "mitreTactics": [
+      {
+        "mitreId": "TA0027",
+        "name": "Initial Access",
+        "id": 0,
+        "url": "https://attack.mitre.org/tactics/TA0027"
+      },
+      {
+        "mitreId": "TA0036",
+        "name": "Exfiltration",
+        "id": 9,
+        "url": "https://attack.mitre.org/tactics/TA0036"
+      },
+      {
+        "mitreId": "TA0038",
+        "name": "Network Effects",
+        "id": 11,
+        "url": "https://attack.mitre.org/tactics/TA0038"
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "name": "SYSTEM_TAMPERING",
+    "description": "System tampering is a process of removing security limitations that are in place by the device manufacturer, and it indicates that the device is fully compromised and can no longer be trusted.",
+    "mitreTactics": [
+      {
+        "mitreId": "TA0029",
+        "name": "Privilege Escalation",
+        "id": 2,
+        "url": "https://attack.mitre.org/tactics/TA0029"
+      },
+      {
+        "mitreId": "TA0034",
+        "name": "Impact",
+        "id": 7,
+        "url": "https://attack.mitre.org/tactics/TA0034"
+      },
+      {
+        "mitreId": "TA0041",
+        "name": "Execution",
+        "id": 13,
+        "url": "https://attack.mitre.org/tactics/TA0041"
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "name": "ROGUE_ACCESS_POINT",
+    "description": "Rogue access points exploit a device vulnerability to connect to a previously known Wi-Fi network by masking preferred and known networks.",
+    "mitreTactics": [
+      {
+        "mitreId": "TA0027",
+        "name": "Initial Access",
+        "id": 0,
+        "url": "https://attack.mitre.org/tactics/TA0027"
+      },
+      {
+        "mitreId": "TA0031",
+        "name": "Credential Access",
+        "id": 4,
+        "url": "https://attack.mitre.org/tactics/TA0031"
+      },
+      {
+        "mitreId": "TA0038",
+        "name": "Network Effects",
+        "id": 11,
+        "url": "https://attack.mitre.org/tactics/TA0038"
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "name": "DEVICE_ROOTED",
+    "description": "Jailbreaking and rooting are the processes of gaining unauthorized access or elevated privileges on a system. Jailbreaking and rooting can potentially open security holes that may not have been apparent or undermine the device's built-in security measures.",
+    "mitreTactics": [
+      {
+        "mitreId": "TA0028",
+        "name": "Persistence",
+        "id": 1,
+        "url": "https://attack.mitre.org/tactics/TA0028"
+      },
+      {
+        "mitreId": "TA0029",
+        "name": "Privilege Escalation",
+        "id": 2,
+        "url": "https://attack.mitre.org/tactics/TA0029"
+      },
+      {
+        "mitreId": "TA0041",
+        "name": "Execution",
+        "id": 13,
+        "url": "https://attack.mitre.org/tactics/TA0041"
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "name": "STAGEFRIGHT_VULNERABLE",
+    "description": "Stagefright vulnerability indicates the device is on an OS patch version susceptible to compromise.",
+    "mitreTactics": [
+      {
+        "mitreId": "TA0034",
+        "name": "Impact",
+        "id": 7,
+        "url": "https://attack.mitre.org/tactics/TA0034"
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "name": "SUSPICIOUS_IPA",
+    "description": "A known malicious app is detected and can attempt to take control of the device in some manner, such as elevation of privileges or spyware.",
+    "mitreTactics": [
+      {
+        "mitreId": "TA0027",
+        "name": "Initial Access",
+        "id": 0,
+        "url": "https://attack.mitre.org/tactics/TA0027"
+      },
+      {
+        "mitreId": "TA0028",
+        "name": "Persistence",
+        "id": 1,
+        "url": "https://attack.mitre.org/tactics/TA0028"
+      },
+      {
+        "mitreId": "TA0031",
+        "name": "Credential Access",
+        "id": 4,
+        "url": "https://attack.mitre.org/tactics/TA0031"
+      },
+      {
+        "mitreId": "TA0034",
+        "name": "Impact",
+        "id": 7,
+        "url": "https://attack.mitre.org/tactics/TA0034"
+      },
+      {
+        "mitreId": "TA0035",
+        "name": "Collection",
+        "id": 8,
+        "url": "https://attack.mitre.org/tactics/TA0035"
+      },
+      {
+        "mitreId": "TA0036",
+        "name": "Exfiltration",
+        "id": 9,
+        "url": "https://attack.mitre.org/tactics/TA0036"
+      },
+      {
+        "mitreId": "TA0041",
+        "name": "Execution",
+        "id": 13,
+        "url": "https://attack.mitre.org/tactics/TA0041"
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "name": "DAEMON_ANOMALY",
+    "description": "A daemon anomaly indicates abnormal system process activities that can indicate that the device has been exploited.",
+    "mitreTactics": [
+      {
+        "mitreId": "TA0028",
+        "name": "Persistence",
+        "id": 1,
+        "url": "https://attack.mitre.org/tactics/TA0028"
+      },
+      {
+        "mitreId": "TA0029",
+        "name": "Privilege Escalation",
+        "id": 2,
+        "url": "https://attack.mitre.org/tactics/TA0029"
+      },
+      {
+        "mitreId": "TA0041",
+        "name": "Execution",
+        "id": 13,
+        "url": "https://attack.mitre.org/tactics/TA0041"
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "name": "USB_DEBUGGING_ON",
+    "description": "USB debugging is an advanced configuration option intended for development purposes only. By enabling USB debugging, your device can accept commands from a computer when plugged into a USB connection.",
+    "mitreTactics": [
+      {
+        "mitreId": "TA0027",
+        "name": "Initial Access",
+        "id": 0,
+        "url": "https://attack.mitre.org/tactics/TA0027"
+      },
+      {
+        "mitreId": "TA0034",
+        "name": "Impact",
+        "id": 7,
+        "url": "https://attack.mitre.org/tactics/TA0034"
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "name": "SUSPICIOUS_PROFILE",
+    "description": "A suspicious profile is a new profile introduced into the environment and is not explicitly trusted or untrusted. An administrator must review the profile and mark the profile as trusted or untrusted.",
+    "mitreTactics": [
+      {
+        "mitreId": "TA0027",
+        "name": "Initial Access",
+        "id": 0,
+        "url": "https://attack.mitre.org/tactics/TA0027"
+      },
+      {
+        "mitreId": "TA0028",
+        "name": "Persistence",
+        "id": 1,
+        "url": "https://attack.mitre.org/tactics/TA0028"
+      },
+      {
+        "mitreId": "TA0031",
+        "name": "Credential Access",
+        "id": 4,
+        "url": "https://attack.mitre.org/tactics/TA0031"
+      },
+      {
+        "mitreId": "TA0034",
+        "name": "Impact",
+        "id": 7,
+        "url": "https://attack.mitre.org/tactics/TA0034"
+      },
+      {
+        "mitreId": "TA0035",
+        "name": "Collection",
+        "id": 8,
+        "url": "https://attack.mitre.org/tactics/TA0035"
+      },
+      {
+        "mitreId": "TA0036",
+        "name": "Exfiltration",
+        "id": 9,
+        "url": "https://attack.mitre.org/tactics/TA0036"
+      },
+      {
+        "mitreId": "TA0041",
+        "name": "Execution",
+        "id": 13,
+        "url": "https://attack.mitre.org/tactics/TA0041"
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "name": "DEVELOPER_OPTIONS_ON",
+    "description": "Developer Options is an advanced configuration option intended for development purposes only. When enabled, the user has the option to change advanced settings, compromising the integrity of the device settings.",
+    "mitreTactics": [
+      {
+        "mitreId": "TA0034",
+        "name": "Impact",
+        "id": 7,
+        "url": "https://attack.mitre.org/tactics/TA0034"
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "name": "INTERNAL_NETWORK_ACCESS",
+    "description": "An app was detected connecting to private or internal servers. It is uncommon for public applications to connect to internal servers. Public applications connecting to internal servers is considered suspicious behavior and needs investigation immediately for the possible threat of malware installed on the device and the risk of data leakage.",
+    "mitreTactics": [
+      {
+        "mitreId": "TA0032",
+        "name": "Discovery",
+        "id": 5,
+        "url": "https://attack.mitre.org/tactics/TA0032"
+      },
+      {
+        "mitreId": "TA0033",
+        "name": "Lateral Movement",
+        "id": 6,
+        "url": "https://attack.mitre.org/tactics/TA0033"
+      },
+      {
+        "mitreId": "TA0035",
+        "name": "Collection",
+        "id": 8,
+        "url": "https://attack.mitre.org/tactics/TA0035"
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "name": "ENCRYPTION_NOT_ENABLED",
+    "description": "Encryption is not set up on the device and is needed to protect the device's content.",
+    "mitreTactics": [
+      {
+        "mitreId": "TA0034",
+        "name": "Impact",
+        "id": 7,
+        "url": "https://attack.mitre.org/tactics/TA0034"
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "name": "PASSCODE_NOT_ENABLED",
+    "description": "The device is not set up to use a PIN code or password to control access to the device.",
+    "mitreTactics": [
+      {
+        "mitreId": "TA0034",
+        "name": "Impact",
+        "id": 7,
+        "url": "https://attack.mitre.org/tactics/TA0034"
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "name": "ANDROID_NOT_UPDATED",
+    "description": "The Android version installed on the device is not up to date. The outdated operating system exposes the device to known vulnerabilities and the threat of being exploited by malicious actors. You need to update the operating system immediately.",
+    "mitreTactics": [
+      {
+        "mitreId": "TA0034",
+        "name": "Impact",
+        "id": 7,
+        "url": "https://attack.mitre.org/tactics/TA0034"
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "name": "IOS_NOT_UPDATED",
+    "description": "The iOS version installed on the device is not up to date. The outdated operating system exposes the device to known vulnerabilities and the threat of being exploited by malicious actors. You need to update the operating system immediately.",
+    "mitreTactics": [
+      {
+        "mitreId": "TA0034",
+        "name": "Impact",
+        "id": 7,
+        "url": "https://attack.mitre.org/tactics/TA0034"
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "name": "SELINUX_DISABLED",
+    "description": "Security-enhanced Linux (SELinux) is a security feature in the operating system that helps maintain the operating system's integrity. If SELinux has been disabled, the operating system's integrity may be compromised and should be investigated immediately.",
+    "mitreTactics": [
+      {
+        "mitreId": "TA0034",
+        "name": "Impact",
+        "id": 7,
+        "url": "https://attack.mitre.org/tactics/TA0034"
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "name": "ROGUE_ACCESS_POINT_NEARBY",
+    "description": "Rogue access points exploit device vulnerability to connect to a previously known Wi-Fi network by masking preferred and known networks.",
+    "mitreTactics": [
+      {
+        "mitreId": "TA0027",
+        "name": "Initial Access",
+        "id": 0,
+        "url": "https://attack.mitre.org/tactics/TA0027"
+      },
+      {
+        "mitreId": "TA0038",
+        "name": "Network Effects",
+        "id": 11,
+        "url": "https://attack.mitre.org/tactics/TA0038"
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "name": "UNSECURED_WIFI_NETWORK",
+    "description": "A connection to an unsecured Wi-Fi network is detected, and these networks are not protected by encryption or authentication protocols and are open to attackers.",
+    "mitreTactics": [
+      {
+        "mitreId": "TA0027",
+        "name": "Initial Access",
+        "id": 0,
+        "url": "https://attack.mitre.org/tactics/TA0027"
+      },
+      {
+        "mitreId": "TA0035",
+        "name": "Collection",
+        "id": 8,
+        "url": "https://attack.mitre.org/tactics/TA0035"
+      },
+      {
+        "mitreId": "TA0036",
+        "name": "Exfiltration",
+        "id": 9,
+        "url": "https://attack.mitre.org/tactics/TA0036"
+      },
+      {
+        "mitreId": "TA0038",
+        "name": "Network Effects",
+        "id": 11,
+        "url": "https://attack.mitre.org/tactics/TA0038"
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "name": "CAPTIVE_PORTAL",
+    "description": "Captive portal networks route traffic through a single proxy (portal), potentially opening up the traffic to monitoring.",
+    "mitreTactics": [
+      {
+        "mitreId": "TA0027",
+        "name": "Initial Access",
+        "id": 0,
+        "url": "https://attack.mitre.org/tactics/TA0027"
+      },
+      {
+        "mitreId": "TA0038",
+        "name": "Network Effects",
+        "id": 11,
+        "url": "https://attack.mitre.org/tactics/TA0038"
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "name": "TRACEROUTE_MITM",
+    "description": "A man-in-the-middle attack occurred where a malicious attacker can hijack traffic, steal credentials, and deliver malware to the device.",
+    "mitreTactics": [
+      {
+        "mitreId": "TA0035",
+        "name": "Collection",
+        "id": 8,
+        "url": "https://attack.mitre.org/tactics/TA0035"
+      },
+      {
+        "mitreId": "TA0036",
+        "name": "Exfiltration",
+        "id": 9,
+        "url": "https://attack.mitre.org/tactics/TA0036"
+      },
+      {
+        "mitreId": "TA0038",
+        "name": "Network Effects",
+        "id": 11,
+        "url": "https://attack.mitre.org/tactics/TA0038"
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "name": "BLUEBORNE_VULNERABLE",
+    "description": "The device is vulnerable to a BlueBorne attack, which leverages Bluetooth connections to penetrate and take control of targeted devices. To avoid any risk from BlueBorne, the user needs to permanently turn off Bluetooth until an update is available from your device manufacturer or wireless carrier. For those users that still require the use of Bluetooth, it is recommended that Bluetooth is turned off until it is needed and only in a trusted and secure area.",
+    "mitreTactics": [
+      {
+        "mitreId": "TA0027",
+        "name": "Initial Access",
+        "id": 0,
+        "url": "https://attack.mitre.org/tactics/TA0027"
+      },
+      {
+        "mitreId": "TA0039",
+        "name": "Remote Service Effects",
+        "id": 12,
+        "url": "https://attack.mitre.org/tactics/TA0039"
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "name": "ANDROID_COMPATIBILITY_TESTING",
+    "description": "The profile of the Android device does not match the profile of any devices that have passed Google's Android compatibility testing.",
+    "mitreTactics": [
+      {
+        "mitreId": "TA0027",
+        "name": "Initial Access",
+        "id": 0,
+        "url": "https://attack.mitre.org/tactics/TA0027"
+      },
+      {
+        "mitreId": "TA0034",
+        "name": "Impact",
+        "id": 7,
+        "url": "https://attack.mitre.org/tactics/TA0034"
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "name": "ANDROID_BASIC_INTEGRITY",
+    "description": "Possible tampering may have occurred with the Android device.",
+    "mitreTactics": [
+      {
+        "mitreId": "TA0028",
+        "name": "Persistence",
+        "id": 1,
+        "url": "https://attack.mitre.org/tactics/TA0028"
+      },
+      {
+        "mitreId": "TA0029",
+        "name": "Privilege Escalation",
+        "id": 2,
+        "url": "https://attack.mitre.org/tactics/TA0029"
+      },
+      {
+        "mitreId": "TA0034",
+        "name": "Impact",
+        "id": 7,
+        "url": "https://attack.mitre.org/tactics/TA0034"
+      },
+      {
+        "mitreId": "TA0041",
+        "name": "Execution",
+        "id": 13,
+        "url": "https://attack.mitre.org/tactics/TA0041"
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "name": "MALICIOUS_WEBSITE_OPENED",
+    "description": "A user tapped a potentially malicious URL on the device. The user was warned of potential danger with the linked site, and chose to continue to the website after the warning.",
+    "mitreTactics": [
+      {
+        "mitreId": "TA0027",
+        "name": "Initial Access",
+        "id": 0,
+        "url": "https://attack.mitre.org/tactics/TA0027"
+      },
+      {
+        "mitreId": "TA0029",
+        "name": "Privilege Escalation",
+        "id": 2,
+        "url": "https://attack.mitre.org/tactics/TA0029"
+      },
+      {
+        "mitreId": "TA0031",
+        "name": "Credential Access",
+        "id": 4,
+        "url": "https://attack.mitre.org/tactics/TA0031"
+      },
+      {
+        "mitreId": "TA0038",
+        "name": "Network Effects",
+        "id": 11,
+        "url": "https://attack.mitre.org/tactics/TA0038"
+      },
+      {
+        "mitreId": "TA0041",
+        "name": "Execution",
+        "id": 13,
+        "url": "https://attack.mitre.org/tactics/TA0041"
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "name": "APP_TAMPERING",
+    "description": "Existing app libraries may have been modified, or a foreign library may have been injected into the app.",
+    "mitreTactics": [
+      {
+        "mitreId": "TA0028",
+        "name": "Persistence",
+        "id": 1,
+        "url": "https://attack.mitre.org/tactics/TA0028"
+      },
+      {
+        "mitreId": "TA0029",
+        "name": "Privilege Escalation",
+        "id": 2,
+        "url": "https://attack.mitre.org/tactics/TA0029"
+      },
+      {
+        "mitreId": "TA0030",
+        "name": "Defense Evasion",
+        "id": 3,
+        "url": "https://attack.mitre.org/tactics/TA0030"
+      },
+      {
+        "mitreId": "TA0041",
+        "name": "Execution",
+        "id": 13,
+        "url": "https://attack.mitre.org/tactics/TA0041"
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "name": "SIDELOADED_APP",
+    "description": "Sideloaded apps are installed independently of an official app store and can present a security risk.",
+    "mitreTactics": [
+      {
+        "mitreId": "TA0027",
+        "name": "Initial Access",
+        "id": 0,
+        "url": "https://attack.mitre.org/tactics/TA0027"
+      },
+      {
+        "mitreId": "TA0028",
+        "name": "Persistence",
+        "id": 1,
+        "url": "https://attack.mitre.org/tactics/TA0028"
+      },
+      {
+        "mitreId": "TA0035",
+        "name": "Collection",
+        "id": 8,
+        "url": "https://attack.mitre.org/tactics/TA0035"
+      },
+      {
+        "mitreId": "TA0036",
+        "name": "Exfiltration",
+        "id": 9,
+        "url": "https://attack.mitre.org/tactics/TA0036"
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "name": "TLS_DOWNGRADE",
+    "description": "SSL/TLS downgrades force apps to use old encryption protocols. These protocols may be vulnerable to attacks that allow third parties to view encrypted information.",
+    "mitreTactics": [
+      {
+        "mitreId": "TA0034",
+        "name": "Impact",
+        "id": 7,
+        "url": "https://attack.mitre.org/tactics/TA0034"
+      },
+      {
+        "mitreId": "TA0038",
+        "name": "Network Effects",
+        "id": 11,
+        "url": "https://attack.mitre.org/tactics/TA0038"
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "name": "ZIPS_NOT_RUNNING_ON_CONTAINER",
+    "description": "The Mobile Threat Defense (MTD) application is not activated on both the personal and work profiles on this device. Install and activate the MTD app in both locations to ensure full device protection.",
+    "mitreTactics": []
+  },
+  {
+    "id": 79,
+    "name": "DANGERZONE_CONNECTED",
+    "description": "The device connected to a Wi-Fi network where malicious attacks have been observed.",
+    "mitreTactics": [
+      {
+        "mitreId": "TA0027",
+        "name": "Initial Access",
+        "id": 0,
+        "url": "https://attack.mitre.org/tactics/TA0027"
+      },
+      {
+        "mitreId": "TA0038",
+        "name": "Network Effects",
+        "id": 11,
+        "url": "https://attack.mitre.org/tactics/TA0038"
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "name": "DANGERZONE_NEARBY",
+    "description": "The device is near a Wi-Fi network where malicious attacks have been observed.",
+    "mitreTactics": [
+      {
+        "mitreId": "TA0027",
+        "name": "Initial Access",
+        "id": 0,
+        "url": "https://attack.mitre.org/tactics/TA0027"
+      },
+      {
+        "mitreId": "TA0038",
+        "name": "Network Effects",
+        "id": 11,
+        "url": "https://attack.mitre.org/tactics/TA0038"
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "name": "GOOGLE_PLAY_PROTECT_DISABLED",
+    "description": "Google Play Protect has been disabled on this device. Google Play Protect helps protect the device from malicious apps and needs to be re-enabled.",
+    "mitreTactics": [
+      {
+        "mitreId": "TA0027",
+        "name": "Initial Access",
+        "id": 0,
+        "url": "https://attack.mitre.org/tactics/TA0027"
+      },
+      {
+        "mitreId": "TA0034",
+        "name": "Impact",
+        "id": 7,
+        "url": "https://attack.mitre.org/tactics/TA0034"
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "name": "ANDROID_DEBUG_BRIDGE_APPS_NOT_VERIFIED",
+    "description": "Apps installed via ADB are not required to be verified. This may allow malicious apps to be installed on the device.",
+    "mitreTactics": [
+      {
+        "mitreId": "TA0027",
+        "name": "Initial Access",
+        "id": 0,
+        "url": "https://attack.mitre.org/tactics/TA0027"
+      },
+      {
+        "mitreId": "TA0028",
+        "name": "Persistence",
+        "id": 1,
+        "url": "https://attack.mitre.org/tactics/TA0028"
+      },
+      {
+        "mitreId": "TA0029",
+        "name": "Privilege Escalation",
+        "id": 2,
+        "url": "https://attack.mitre.org/tactics/TA0029"
+      },
+      {
+        "mitreId": "TA0031",
+        "name": "Credential Access",
+        "id": 4,
+        "url": "https://attack.mitre.org/tactics/TA0031"
+      },
+      {
+        "mitreId": "TA0033",
+        "name": "Lateral Movement",
+        "id": 6,
+        "url": "https://attack.mitre.org/tactics/TA0033"
+      },
+      {
+        "mitreId": "TA0035",
+        "name": "Collection",
+        "id": 8,
+        "url": "https://attack.mitre.org/tactics/TA0035"
+      },
+      {
+        "mitreId": "TA0036",
+        "name": "Exfiltration",
+        "id": 9,
+        "url": "https://attack.mitre.org/tactics/TA0036"
+      }
+    ]
+  },
+  {
+    "id": 86,
+    "name": "OVER_THE_AIR_UPDATES_DISABLED",
+    "description": "Over-the-air (OTA) updates have been disabled on this device. OTA updates help keep a device's software up to date and more secure.",
+    "mitreTactics": [
+      {
+        "mitreId": "TA0034",
+        "name": "Impact",
+        "id": 7,
+        "url": "https://attack.mitre.org/tactics/TA0034"
+      }
+    ]
+  },
+  {
+    "id": 87,
+    "name": "ALWAYS_ON_VPN_APP_SET",
+    "description": "An app has been configured as an always-on VPN on this device. The app may monitor all device communications with the Internet.",
+    "mitreTactics": [
+      {
+        "mitreId": "TA0035",
+        "name": "Collection",
+        "id": 8,
+        "url": "https://attack.mitre.org/tactics/TA0035"
+      },
+      {
+        "mitreId": "TA0036",
+        "name": "Exfiltration",
+        "id": 9,
+        "url": "https://attack.mitre.org/tactics/TA0036"
+      },
+      {
+        "mitreId": "TA0038",
+        "name": "Network Effects",
+        "id": 11,
+        "url": "https://attack.mitre.org/tactics/TA0038"
+      }
+    ]
+  },
+  {
+    "id": 88,
+    "name": "VULNERABLE_NON_UPGRADEABLE_IOS_VERSION",
+    "description": "The device is running a vulnerable iOS version. However, the device is not eligible for an operating system upgrade at this time.",
+    "mitreTactics": [
+      {
+        "mitreId": "TA0034",
+        "name": "Impact",
+        "id": 7,
+        "url": "https://attack.mitre.org/tactics/TA0034"
+      }
+    ]
+  },
+  {
+    "id": 89,
+    "name": "VULNERABLE_NON_UPGRADEABLE_ANDROID_VERSION",
+    "description": "The device is running a vulnerable Android version. However, the device is not eligible for an operating system upgrade at this time.",
+    "mitreTactics": [
+      {
+        "mitreId": "TA0034",
+        "name": "Impact",
+        "id": 7,
+        "url": "https://attack.mitre.org/tactics/TA0034"
+      }
+    ]
+  },
+  {
+    "id": 93,
+    "name": "OUT_OF_COMPLIANCE_APP",
+    "description": "One or more apps are found on the device that are marked as Out-of-Compliance apps.",
+    "mitreTactics": [
+      {
+        "mitreId": "TA0034",
+        "name": "Impact",
+        "id": 7,
+        "url": "https://attack.mitre.org/tactics/TA0034"
+      },
+      {
+        "mitreId": "TA0035",
+        "name": "Collection",
+        "id": 8,
+        "url": "https://attack.mitre.org/tactics/TA0035"
+      },
+      {
+        "mitreId": "TA0036",
+        "name": "Exfiltration",
+        "id": 9,
+        "url": "https://attack.mitre.org/tactics/TA0036"
+      }
+    ]
+  },
+  {
+    "id": 100,
+    "name": "INACTIVE_APP",
+    "description": "A certain amount of time has passed and the app has not communicated with the server.",
+    "mitreTactics": []
+  },
+  {
+    "id": 103,
+    "name": "DEBUG_ENABLED_APK",
+    "description": "An app with debug enabled is detected and can pose a risk and allow an attacker to control and manipulate the underlying app functions.",
+    "mitreTactics": [
+      {
+        "mitreId": "TA0028",
+        "name": "Persistence",
+        "id": 1,
+        "url": "https://attack.mitre.org/tactics/TA0028"
+      },
+      {
+        "mitreId": "TA0034",
+        "name": "Impact",
+        "id": 7,
+        "url": "https://attack.mitre.org/tactics/TA0034"
+      },
+      {
+        "mitreId": "TA0035",
+        "name": "Collection",
+        "id": 8,
+        "url": "https://attack.mitre.org/tactics/TA0035"
+      }
+    ]
+  },
+  {
+    "id": 121,
+    "name": "DEVICE_COMPROMISED_VIA_NETWORK_BASED_ATTACKS",
+    "description": "The device was compromised by a sophisticated kill chain attack that started at the network and ended leaving the device compromised.",
+    "mitreTactics": [
+      {
+        "mitreId": "TA0027",
+        "name": "Initial Access",
+        "id": 0,
+        "url": "https://attack.mitre.org/tactics/TA0027"
+      },
+      {
+        "mitreId": "TA0028",
+        "name": "Persistence",
+        "id": 1,
+        "url": "https://attack.mitre.org/tactics/TA0028"
+      },
+      {
+        "mitreId": "TA0029",
+        "name": "Privilege Escalation",
+        "id": 2,
+        "url": "https://attack.mitre.org/tactics/TA0029"
+      },
+      {
+        "mitreId": "TA0031",
+        "name": "Credential Access",
+        "id": 4,
+        "url": "https://attack.mitre.org/tactics/TA0031"
+      },
+      {
+        "mitreId": "TA0034",
+        "name": "Impact",
+        "id": 7,
+        "url": "https://attack.mitre.org/tactics/TA0034"
+      },
+      {
+        "mitreId": "TA0035",
+        "name": "Collection",
+        "id": 8,
+        "url": "https://attack.mitre.org/tactics/TA0035"
+      },
+      {
+        "mitreId": "TA0036",
+        "name": "Exfiltration",
+        "id": 9,
+        "url": "https://attack.mitre.org/tactics/TA0036"
+      },
+      {
+        "mitreId": "TA0038",
+        "name": "Network Effects",
+        "id": 11,
+        "url": "https://attack.mitre.org/tactics/TA0038"
+      },
+      {
+        "mitreId": "TA0041",
+        "name": "Execution",
+        "id": 13,
+        "url": "https://attack.mitre.org/tactics/TA0041"
+      }
+    ]
+  },
+  {
+    "id": 122,
+    "name": "DEVICE_COMPROMISED_VIA_MALICIOUS_APP",
+    "description": "The device was compromised by a sophisticated kill chain attack that started with a malicious app and ended leaving the device compromised.",
+    "mitreTactics": [
+      {
+        "mitreId": "TA0027",
+        "name": "Initial Access",
+        "id": 0,
+        "url": "https://attack.mitre.org/tactics/TA0027"
+      },
+      {
+        "mitreId": "TA0028",
+        "name": "Persistence",
+        "id": 1,
+        "url": "https://attack.mitre.org/tactics/TA0028"
+      },
+      {
+        "mitreId": "TA0029",
+        "name": "Privilege Escalation",
+        "id": 2,
+        "url": "https://attack.mitre.org/tactics/TA0029"
+      },
+      {
+        "mitreId": "TA0031",
+        "name": "Credential Access",
+        "id": 4,
+        "url": "https://attack.mitre.org/tactics/TA0031"
+      },
+      {
+        "mitreId": "TA0034",
+        "name": "Impact",
+        "id": 7,
+        "url": "https://attack.mitre.org/tactics/TA0034"
+      },
+      {
+        "mitreId": "TA0035",
+        "name": "Collection",
+        "id": 8,
+        "url": "https://attack.mitre.org/tactics/TA0035"
+      },
+      {
+        "mitreId": "TA0036",
+        "name": "Exfiltration",
+        "id": 9,
+        "url": "https://attack.mitre.org/tactics/TA0036"
+      },
+      {
+        "mitreId": "TA0041",
+        "name": "Execution",
+        "id": 13,
+        "url": "https://attack.mitre.org/tactics/TA0041"
+      }
+    ]
+  },
+  {
+    "id": 123,
+    "name": "DEVICE_COMPROMISED_VIA_PHISHING_ATTACK",
+    "description": "The device was compromised by a sophisticated kill chain attack that started with a phishing threat and ended leaving the device compromised.",
+    "mitreTactics": [
+      {
+        "mitreId": "TA0027",
+        "name": "Initial Access",
+        "id": 0,
+        "url": "https://attack.mitre.org/tactics/TA0027"
+      },
+      {
+        "mitreId": "TA0028",
+        "name": "Persistence",
+        "id": 1,
+        "url": "https://attack.mitre.org/tactics/TA0028"
+      },
+      {
+        "mitreId": "TA0029",
+        "name": "Privilege Escalation",
+        "id": 2,
+        "url": "https://attack.mitre.org/tactics/TA0029"
+      },
+      {
+        "mitreId": "TA0031",
+        "name": "Credential Access",
+        "id": 4,
+        "url": "https://attack.mitre.org/tactics/TA0031"
+      },
+      {
+        "mitreId": "TA0034",
+        "name": "Impact",
+        "id": 7,
+        "url": "https://attack.mitre.org/tactics/TA0034"
+      },
+      {
+        "mitreId": "TA0038",
+        "name": "Network Effects",
+        "id": 11,
+        "url": "https://attack.mitre.org/tactics/TA0038"
+      },
+      {
+        "mitreId": "TA0041",
+        "name": "Execution",
+        "id": 13,
+        "url": "https://attack.mitre.org/tactics/TA0041"
+      }
+    ]
+  },
+  {
+    "id": 124,
+    "name": "DEVICE_COMPROMISED_VIA_IOS_MALICIOUS_PROFILE",
+    "description": "The device was compromised by a sophisticated kill chain attack that started with a malicious iOS profile and ended leaving the device compromised.",
+    "mitreTactics": [
+      {
+        "mitreId": "TA0027",
+        "name": "Initial Access",
+        "id": 0,
+        "url": "https://attack.mitre.org/tactics/TA0027"
+      },
+      {
+        "mitreId": "TA0028",
+        "name": "Persistence",
+        "id": 1,
+        "url": "https://attack.mitre.org/tactics/TA0028"
+      },
+      {
+        "mitreId": "TA0029",
+        "name": "Privilege Escalation",
+        "id": 2,
+        "url": "https://attack.mitre.org/tactics/TA0029"
+      },
+      {
+        "mitreId": "TA0031",
+        "name": "Credential Access",
+        "id": 4,
+        "url": "https://attack.mitre.org/tactics/TA0031"
+      },
+      {
+        "mitreId": "TA0034",
+        "name": "Impact",
+        "id": 7,
+        "url": "https://attack.mitre.org/tactics/TA0034"
+      },
+      {
+        "mitreId": "TA0035",
+        "name": "Collection",
+        "id": 8,
+        "url": "https://attack.mitre.org/tactics/TA0035"
+      },
+      {
+        "mitreId": "TA0036",
+        "name": "Exfiltration",
+        "id": 9,
+        "url": "https://attack.mitre.org/tactics/TA0036"
+      },
+      {
+        "mitreId": "TA0041",
+        "name": "Execution",
+        "id": 13,
+        "url": "https://attack.mitre.org/tactics/TA0041"
+      }
+    ]
+  },
+  {
+    "id": 125,
+    "name": "COMPROMISED_NETWORK",
+    "description": "A pattern of threats occurred that indicates the device is connected to a compromised network. Sensitive data on the device may be intercepted and could be monitored and modified by an unauthorized party.",
+    "mitreTactics": [
+      {
+        "mitreId": "TA0027",
+        "name": "Initial Access",
+        "id": 0,
+        "url": "https://attack.mitre.org/tactics/TA0027"
+      },
+      {
+        "mitreId": "TA0035",
+        "name": "Collection",
+        "id": 8,
+        "url": "https://attack.mitre.org/tactics/TA0035"
+      },
+      {
+        "mitreId": "TA0036",
+        "name": "Exfiltration",
+        "id": 9,
+        "url": "https://attack.mitre.org/tactics/TA0036"
+      },
+      {
+        "mitreId": "TA0038",
+        "name": "Network Effects",
+        "id": 11,
+        "url": "https://attack.mitre.org/tactics/TA0038"
+      }
+    ]
+  },
+  {
+    "id": 130,
+    "name": "PEGASUS",
+    "description": "The Pegasus spyware has been detected on the device. Pegasus is a surveillance tool that is used to monitor and collect information from the device.",
+    "mitreTactics": [
+      {
+        "mitreId": "TA0027",
+        "name": "Initial Access",
+        "id": 0,
+        "url": "https://attack.mitre.org/tactics/TA0027"
+      },
+      {
+        "mitreId": "TA0037",
+        "name": "Command and Control",
+        "id": 10,
+        "url": "https://attack.mitre.org/tactics/TA0037"
+      }
+    ]
+  },
+  {
+    "id": 132,
+    "name": "WEBSITE_TAPPED",
+    "description": "Website content not approved by your organization was tapped on the device.",
+    "mitreTactics": [
+      {
+        "mitreId": "TA0027",
+        "name": "Initial Access",
+        "id": 0,
+        "url": "https://attack.mitre.org/tactics/TA0027"
+      }
+    ]
+  },
+  {
+    "id": 133,
+    "name": "WEBSITE_VISITED",
+    "description": "A user tapped on website content not approved by your organization. The user was warned the website content does not comply with your organization's policies and chose to continue to the website after the warning.",
+    "mitreTactics": [
+      {
+        "mitreId": "TA0027",
+        "name": "Initial Access",
+        "id": 0,
+        "url": "https://attack.mitre.org/tactics/TA0027"
+      }
+    ]
+  },
+  {
+    "id": 134,
+    "name": "WEBSITE_BLOCKED",
+    "description": "A user tapped on website content not approved by your organization and the site was blocked.",
+    "mitreTactics": [
+      {
+        "mitreId": "TA0027",
+        "name": "Initial Access",
+        "id": 0,
+        "url": "https://attack.mitre.org/tactics/TA0027"
+      }
+    ]
+  },
+  {
+    "id": 135,
+    "name": "MAL_WEBSITE_TAPPED",
+    "description": "A potentially malicious website address (URL) link was tapped on the device.",
+    "mitreTactics": [
+      {
+        "mitreId": "TA0027",
+        "name": "Initial Access",
+        "id": 0,
+        "url": "https://attack.mitre.org/tactics/TA0027"
+      }
+    ]
+  },
+  {
+    "id": 136,
+    "name": "MAL_WEBSITE_VISITED",
+    "description": "A user tapped a potentially malicious link on the device. The user was warned of potential danger with the linked site, and chose to continue to the website after the warning.",
+    "mitreTactics": [
+      {
+        "mitreId": "TA0027",
+        "name": "Initial Access",
+        "id": 0,
+        "url": "https://attack.mitre.org/tactics/TA0027"
+      }
+    ]
+  },
+  {
+    "id": 137,
+    "name": "MAL_WEBSITE_BLOCKED",
+    "description": "A potentially malicious website address (URL) link was blocked on the device.",
+    "mitreTactics": [
+      {
+        "mitreId": "TA0027",
+        "name": "Initial Access",
+        "id": 0,
+        "url": "https://attack.mitre.org/tactics/TA0027"
+      }
+    ]
+  },
+  {
+    "id": 200,
+    "name": "DEVICE_PENDING_ACTIVATION",
+    "description": "App activation for the Mobile Threat Defense (MTD) application is not complete.",
+    "mitreTactics": []
+  },
+  {
+    "id": 1002,
+    "name": "SUSPICIOUS_BROWSER_EXTENSION",
+    "description": "An unsafe extension is detected. It is strongly recommended that you remove the extension immediately.",
+    "mitreTactics": [
+      {
+        "mitreId": "TA0028",
+        "name": "Persistence",
+        "id": 1,
+        "url": "https://attack.mitre.org/tactics/TA0028"
+      },
+      {
+        "mitreId": "TA0031",
+        "name": "Credential Access",
+        "id": 4,
+        "url": "https://attack.mitre.org/tactics/TA0031"
+      },
+      {
+        "mitreId": "TA0032",
+        "name": "Discovery",
+        "id": 5,
+        "url": "https://attack.mitre.org/tactics/TA0032"
+      },
+      {
+        "mitreId": "TA0035",
+        "name": "Collection",
+        "id": 8,
+        "url": "https://attack.mitre.org/tactics/TA0035"
+      },
+      {
+        "mitreId": "TA0041",
+        "name": "Execution",
+        "id": 13,
+        "url": "https://attack.mitre.org/tactics/TA0041"
+      }
+    ]
+  },
+  {
+    "id": 1003,
+    "name": "OOC_BROWSER_EXTENSION",
+    "description": "A Chrome extension is detected that is marked out of compliance with your organization's policies. It is recommended that you remove it from your Chrome browser.",
+    "mitreTactics": [
+      {
+        "mitreId": "TA0028",
+        "name": "Persistence",
+        "id": 1,
+        "url": "https://attack.mitre.org/tactics/TA0028"
+      },
+      {
+        "mitreId": "TA0031",
+        "name": "Credential Access",
+        "id": 4,
+        "url": "https://attack.mitre.org/tactics/TA0031"
+      },
+      {
+        "mitreId": "TA0032",
+        "name": "Discovery",
+        "id": 5,
+        "url": "https://attack.mitre.org/tactics/TA0032"
+      },
+      {
+        "mitreId": "TA0035",
+        "name": "Collection",
+        "id": 8,
+        "url": "https://attack.mitre.org/tactics/TA0035"
+      },
+      {
+        "mitreId": "TA0041",
+        "name": "Execution",
+        "id": 13,
+        "url": "https://attack.mitre.org/tactics/TA0041"
+      }
+    ]
+  },
+  {
+    "id": 1004,
+    "name": "HIGH_RISK_BROWSER_EXTENSION",
+    "description": "A Chrome extension is detected that has one or more privacy and/or security concerns that may put your personal and confidential information at risk.",
+    "mitreTactics": [
+      {
+        "mitreId": "TA0028",
+        "name": "Persistence",
+        "id": 1,
+        "url": "https://attack.mitre.org/tactics/TA0028"
+      },
+      {
+        "mitreId": "TA0031",
+        "name": "Credential Access",
+        "id": 4,
+        "url": "https://attack.mitre.org/tactics/TA0031"
+      },
+      {
+        "mitreId": "TA0032",
+        "name": "Discovery",
+        "id": 5,
+        "url": "https://attack.mitre.org/tactics/TA0032"
+      },
+      {
+        "mitreId": "TA0035",
+        "name": "Collection",
+        "id": 8,
+        "url": "https://attack.mitre.org/tactics/TA0035"
+      },
+      {
+        "mitreId": "TA0041",
+        "name": "Execution",
+        "id": 13,
+        "url": "https://attack.mitre.org/tactics/TA0041"
+      }
+    ]
+  },
+  {
+    "id": 1005,
+    "name": "SIDELOADED_BROWSER_EXTENSION",
+    "description": "A sideloaded extension is detected, which was not installed from an official web store. These extensions and their developers may not be verified and can present a security risk.",
+    "mitreTactics": [
+      {
+        "mitreId": "TA0028",
+        "name": "Persistence",
+        "id": 1,
+        "url": "https://attack.mitre.org/tactics/TA0028"
+      },
+      {
+        "mitreId": "TA0031",
+        "name": "Credential Access",
+        "id": 4,
+        "url": "https://attack.mitre.org/tactics/TA0031"
+      },
+      {
+        "mitreId": "TA0032",
+        "name": "Discovery",
+        "id": 5,
+        "url": "https://attack.mitre.org/tactics/TA0032"
+      },
+      {
+        "mitreId": "TA0035",
+        "name": "Collection",
+        "id": 8,
+        "url": "https://attack.mitre.org/tactics/TA0035"
+      },
+      {
+        "mitreId": "TA0041",
+        "name": "Execution",
+        "id": 13,
+        "url": "https://attack.mitre.org/tactics/TA0041"
+      }
+    ]
+  },
+  {
+    "id": 1006,
+    "name": "DETECTION_PENDING_ACTIVATION",
+    "description": "Mobile threat detection is pending activation.",
+    "mitreTactics": []
+  },
+  {
+    "id": 1007,
+    "name": "DETECTION_INACTIVE",
+    "description": "Mobile threat detection is inactive.",
+    "mitreTactics": []
+  }
+]
