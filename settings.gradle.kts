@@ -1,6 +1,7 @@
 rootProject.name = "turning-spreadsheets-into-code"
 include("generator")
 include("external-server")
+include("generated-demo")
 
 dependencyResolutionManagement {
     versionCatalogs {
