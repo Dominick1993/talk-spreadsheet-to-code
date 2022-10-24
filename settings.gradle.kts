@@ -8,6 +8,7 @@ dependencyResolutionManagement {
             val kotlinVersion = "1.7.20"
             plugin("jvm", "org.jetbrains.kotlin.jvm").version(kotlinVersion)
             plugin("spring", "org.jetbrains.kotlin.plugin.spring").version(kotlinVersion)
+            plugin("ksp", "com.google.devtools.ksp").version("$kotlinVersion-1.0.7")
         }
         register("detektCatalog") {
             val detektVersion = "1.21.0"
